@@ -1,4 +1,3 @@
-// scripts.ts
 
 // Function to toggle visibility of skills list
 function toggleSkills(): void {
@@ -16,7 +15,6 @@ function toggleSkills(): void {
     }
 }
 
-// Initialize the visibility states when the page loads
 document.addEventListener('DOMContentLoaded', () => {
     // Initially hide skills list if needed
     document.getElementById('skillsList')!.style.display = 'none';
