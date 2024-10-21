@@ -4,97 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mahnoor Adnan's Resume</title>
+    <title>Mahnoor Adnan's Professional Resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="resume">
-        <!-- Profile Section -->
-        <div class="profile-section">
-            <img src="images.jpeg"
-                alt="Mahnoor Adnan" class="profile-picture">
-            <h1 class="name">Mahnoor Adnan</h1>
-        </div>
-
-        <!-- About Me Section -->
-        <div class="about-me-section">
-            <h2>About Me</h2>
-            <p>Hi, I'm Mahnoor Adnan, a passionate and dedicated developer with a strong focus on creating interactive
-                and engaging user experiences. As a Frontend Developer, I specialize in building visually appealing and
-                responsive websites that prioritize user interaction and accessibility. My skill set extends beyond the
-                frontend; I have a solid understanding of Backend Development as well, particularly through my
-                experience with Next.js.</p>
-        </div>
-
-        <section id="education">
-            <h2>Education</h2>
-            <div class="education-item">
-                <h3>Student Of Computer Science</h3>
-                <p><strong>Matriculation:</strong>  From Three Stars Grammer School </p>
-                <p><strong>Year:</strong>  2023</p>
-                <p><strong>Currently:</strong>  1st year computer science </p>
-                <p><strong>Khadiga College</strong>, Karachi</p>
-            
+    <div class="resume-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="profile-section">
+                <img src="images.jpeg" alt="Mahnoor Adnan" class="profile-picture">
+                <h1 class="name">Mahnoor Adnan</h1>
+                <p class="job-title">Frontend Developer</p>
             </div>
-          
-        </section>
 
-        <!-- Skills Section -->
-        <div class="skills-section">
-            <h2>Skills</h2>
-            <button class="toggle-button" onclick="toggleSkills()">Show Skills</button>
-            <ul class="skills-list" id="skillsList">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Tailwindcss</li>
-                <li>Bootstrap</li>
-            </ul>
+            <div class="contact-section">
+                <h2>Contact</h2>
+                <p>Email: mahnooradnan479@gmail.com</p>
+                <p>Phone: +123456-789</p>
+                <p>Location: Karachi, Pakistan</p>
+            </div>
+
+            <div class="skills-section">
+                <h2>Skills</h2>
+                <button class="toggle-button" onclick="toggleSkills()">Show Skills</button>
+                <ul class="skills-list" id="skillsList">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>React</li>
+                    <li>Next.js</li>
+                    <li>Tailwind CSS</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+
+            <div class="social-section">
+                <h2>Follow Me</h2>
+                <div class="social-icons">
+                    <div>
+                        <a href="https://github.com/Mahnoor-sheikh-23" class="social-icon"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/growthmonii/" class="social-icon"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <!-- Experience Section -->
-        <div class="experience-section">
-            <h2>Experience</h2>
-            <ul class="experience-list">
-                <li>
-                    <h3>Frontend Developer</h3>
-                    <p>
-                        I am an enthusiastic frontend developer with a strong focus on
-                        creating engaging and user-friendly web applications. My portfolio includes
-                        a range of projects from a food delivery web app developed with Next.js and MongoDB
-                        to a personal portfolio website built using TailwindCSS and Next.js. I have also created
-                        various utility applications such as a to-do list, timer, quiz, and calculator, all designed
-                        with HTML, CSS, and JavaScript. These projects reflect my ability to apply modern web
-                        technologies
-                        and design principles effectively. I am eager to leverage my skills and passion for web
-                        development
-                        in a professional setting and contribute to innovative and impactful projects.</p>
-                </li>
-                <!-- Add more experience items as needed -->
-            </ul>
-        </div>
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="about-me-section">
+                <h2>About Me</h2>
+                <p>Hi, I'm Mahnoor Adnan, a passionate and dedicated developer with a strong focus on creating
+                    interactive and engaging user experiences. I specialize in frontend development and have a solid
+                    understanding of backend development, particularly through my experience with Next.js.</p>
+            </div>
 
-        <!-- Contact Section -->
-        <div class="contact-section" id="contactSection">
-            <h2>Contact</h2>
-            <p>Email: mahnooradnan479@gmail.com</p>
-            <p>Phone: +123456-789</p>
-            <p>Location: Karachi, Pakistan</p>
-        </div>
+            <section id="education">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>Student Of Computer Science</h3>
+                    <p><strong>Matriculation:</strong> From Three Stars Grammar School </p>
+                    <p><strong>Year:</strong> 2023</p>
+                    <p><strong>Currently:</strong> 1st year computer science </p>
+                    <p><strong>Khadiga College</strong>, Karachi</p>
+                </div>
+            </section>
 
-        <!-- Social Media Follow Section -->
-        <div class="follow-section">
-            <h2>Follow Me </h2>
-            <div class="social-icons">
-                <a href="https://github.com/Mahnoor-sheikh-23"  class="social-icon"><i
-                        class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/growthmonii/" class="social-icon"><i
-                        class="fa-brands fa-linkedin"></i></a>
-                <!-- Add more social icons as needed -->
+            <div class="experience-section">
+                <h2>Experience</h2>
+                <ul class="experience-list">
+                    <li>
+                        <h3>Frontend Developer</h3>
+                        <p>I have developed a food delivery web app with Next.js and MongoDB, created a personal
+                            portfolio, and built utility applications like a to-do list, quiz, and calculator using
+                            modern web technologies.</p>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
